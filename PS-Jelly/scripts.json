@@ -1,0 +1,7 @@
+'browser': 'browser-sync start --server public --files public/**/*',
+'build': 'npm-run-all --parallel build:*',
+'build:scripts': 'rollup --config',
+'build:styles': 'node-sass src/styles/scss/main.scss public/assets/styles/main.css',
+'watch:scripts': 'rollup --config --watch',
+'watch:styles': 'node-sass -w src/styles/scss/main.scss public/assets/styles/main.css',
+'watch': 'npm-run-all --parallel browser watch:styles'
