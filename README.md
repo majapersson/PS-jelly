@@ -33,10 +33,6 @@ Running the script will guide you through these processes:
 - Creating config file for rollup *(optional)*
 - Installing json package blobally and copying scripts from scripts.json to package.json *(optional)*
 
-## Known bugs
-- Formatting in rollup.config.js output file
-- Text color does not change back to default on premature exit of script
-
 ## Files included
 - **PS-Jelly.ps1** - The actual script file
 - **Jelly-header.ps1** - File for the ASCII art featured in the script
