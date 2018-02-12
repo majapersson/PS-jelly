@@ -116,6 +116,9 @@ try {
 
         mkdir public/assets/scripts
         mkdir public/assets/styles
+        if (Test-Path ./.gitignore) {
+            New-Item public/assets/styles/.gitkeep
+        }
 
         mkdir src/scripts
         mkdir src/styles
